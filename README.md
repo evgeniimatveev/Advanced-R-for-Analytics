@@ -1,31 +1,31 @@
-# 🌟 Advanced R Programming for Analytics and Data Science 📊  
+#  Advanced R Programming for Analytics and Data Science   
 
-🎉 **Welcome to the Ultimate R Programming Repository!**  
-This repository is your comprehensive guide to mastering **R programming** for data manipulation, visualization, and analytics. From foundational concepts to advanced techniques, everything is presented in detailed, practical scripts and real-world projects. 🚀  
+ **Welcome to the Ultimate R Programming Repository!**  
+This repository is your comprehensive guide to mastering **R programming** for data manipulation, visualization, and analytics. From foundational concepts to advanced techniques, everything is presented in detailed, practical scripts and real-world projects.   
 
 ---
 
-## 📚 **What You Will Learn**  
+##  **What You Will Learn**  
 
-### 🔑 **Core Skills and Concepts**  
+###  **Core Skills and Concepts**  
 - **Data Manipulation**: Unlock the power of R's data structures, including lists, data frames, and matrices.  
 - **Data Cleaning**: Effectively handle missing data with advanced imputation techniques.  
 - **Apply Family of Functions**: Boost efficiency using `apply`, `lapply`, `sapply`, and more.  
 - **Professional Visualization**: Create impactful visualizations with R libraries such as `ggplot2`.  
 - **Automation and Scripting**: Automate repetitive tasks using loops, functions, and nested workflows.  
 
-### 🤖 **Hands-on Projects and Datasets**  
+###  **Hands-on Projects and Datasets**  
 - Solve **real-world problems** like **weather analysis**, **time-series visualization**, and **machine performance monitoring**.  
 - Practice with curated datasets and polished workflows designed to develop practical skills.  
 
 ---
 
-## 📂 **Repository Structure**  
+##  **Repository Structure**  
 
-### **Section 1: Core Programming Principles and Data Cleaning 🧩**  
+### **Section 1: Core Programming Principles and Data Cleaning **  
 Master foundational concepts in R programming and effective data cleaning workflows.  
 
-📁 **Files** (17 total):  
+ **Files** (17 total):  
 - `What_is_an_NA_in_R.R` — Introduction to handling missing values in R.  
 - `Data_Filters_is.na_for_Missing_Data.R` — Techniques for filtering rows with missing values.  
 - `Data_Filters_which_for_Non-Missing_Data.R` — Identify and extract rows without missing values.  
@@ -46,10 +46,10 @@ Master foundational concepts in R programming and effective data cleaning workfl
 
 ---
 
-### **Section 2: Lists and Subsetting Techniques 🚀**  
+### **Section 2: Lists and Subsetting Techniques **  
 Learn to manipulate lists and subsetting techniques for cleaner and more efficient workflows.  
 
-📁 **Files** (8 total):  
+ **Files** (8 total):  
 - `Understanding_Lists_in_R.R` — Basics of lists and their key features.  
 - `Naming_Components_of_a_List.R` — Organize your lists with meaningful names.  
 - `Extracting_Components_of_Lists.R` — Programmatically extract list elements.  
@@ -61,10 +61,10 @@ Learn to manipulate lists and subsetting techniques for cleaner and more efficie
 
 ---
 
-### **Section 3: Advanced Analytics with Apply Functions 🧮**  
+### **Section 3: Advanced Analytics with Apply Functions **  
 Master the `apply` family of functions to simplify and automate your data workflows.  
 
-📁 **Files** (8 total):  
+ **Files** (8 total):  
 - `Using_apply_in_R.R` — Start using the `apply` function to iterate over data.  
 - `Combining_lapply_with_Brackets.R` — Advanced subsetting with `lapply`.  
 - `Adding_Your_Own_Functions_with_lapply.R` — Build and integrate custom functions into your workflows.  
@@ -76,7 +76,7 @@ Master the `apply` family of functions to simplify and automate your data workfl
 
 ---
 
-## 🚀 **How to Use This Repository**  
+##  **How to Use This Repository**  
 
 1. **Clone the repository**:  
    ```bash
