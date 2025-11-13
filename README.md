@@ -1,3 +1,29 @@
+<p align="center">
+
+  <!-- Core stack -->
+  <img src="https://img.shields.io/badge/R-Programming-276DC3?logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/RStudio-IDE-75AADB?logo=rstudio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tidyverse-Data%20Manipulation-1A162D" />
+  <img src="https://img.shields.io/badge/ggplot2-Data%20Visualization-8A2BE2" />
+
+  <br/>
+
+  <!-- Focus & topics -->
+  <img src="https://img.shields.io/badge/Focus-Analytics%20%26%20Data%20Science-brightgreen" />
+  <img src="https://img.shields.io/badge/Data_Cleaning-Missing%20Values-orange" />
+  <img src="https://img.shields.io/badge/Apply_Family-lapply%20%7C%20sapply%20%7C%20apply-blueviolet" />
+  <img src="https://img.shields.io/badge/Time_Series-Visualization-teal" />
+
+  <br/>
+
+  <!-- Level & status -->
+  <img src="https://img.shields.io/badge/Level-Intermediate--Advanced-yellow" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
+
+</p>
+
+
 # 🌟 Advanced R Programming for Analytics and Data Science 📊  
 
 🎉 **Welcome to the Ultimate R Programming Repository!**  
