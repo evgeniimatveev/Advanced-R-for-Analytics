@@ -9,6 +9,10 @@ getwd()  # ✅ Verify the working directory
 
 # Import the dataset
 fin <- read.csv("data/future-500.csv")  # 📥 Load the dataset
+# (added so the script runs on its own: in the course these columns are cleaned in an earlier lecture)
+fin$Expenses <- as.numeric(gsub(" Dollars|,", "", fin$Expenses))
+fin$Revenue  <- as.numeric(gsub("[$,]", "", fin$Revenue))
+fin$Growth   <- as.numeric(gsub("%", "", fin$Growth))
 head(fin, 10)  # 👀 Preview the first 10 rows
 summary(fin)   # 📊 Summary of the dataset to check for missing values
 str(fin)       # 🔍 Inspect the structure of the dataset
