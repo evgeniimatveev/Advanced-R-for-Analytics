@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="548" viewBox="0 0 1000 548" role="img" aria-label="Where the data is missing">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1b3a"/><stop offset="0.65" stop-color="#14306b"/><stop offset="1" stop-color="#1d4a8f"/></linearGradient><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#75AADB"/><stop offset="1" stop-color="#9fd0ff"/></linearGradient><linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff9f43"/><stop offset="1" stop-color="#ffc078"/></linearGradient></defs>
+<rect width="1000" height="548" rx="16" fill="url(#bg)"/>
+<text x="32" y="48" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Where the data is missing</text>
+<text x="32" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#cfe3ff">Future-500: 500 companies, empty cells per column</text>
+<text x="176" y="142" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">State</text>
+<rect x="190" y="124" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="124" width="380.0" height="26" rx="6" fill="url(#hot)"/>
+<text x="580.0" y="143" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">4<tspan font-weight="400" fill="#cfe3ff" dx="8">0.8%</tspan></text>
+<text x="176" y="188" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">Expenses</text>
+<rect x="190" y="170" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="170" width="285.0" height="26" rx="6" fill="url(#bar)"/>
+<text x="485.0" y="189" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">3<tspan font-weight="400" fill="#cfe3ff" dx="8">0.6%</tspan></text>
+<text x="176" y="234" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">Industry</text>
+<rect x="190" y="216" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="216" width="190.0" height="26" rx="6" fill="url(#bar)"/>
+<text x="390.0" y="235" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">2<tspan font-weight="400" fill="#cfe3ff" dx="8">0.4%</tspan></text>
+<text x="176" y="280" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">Employees</text>
+<rect x="190" y="262" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="262" width="190.0" height="26" rx="6" fill="url(#bar)"/>
+<text x="390.0" y="281" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">2<tspan font-weight="400" fill="#cfe3ff" dx="8">0.4%</tspan></text>
+<text x="176" y="326" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">Revenue</text>
+<rect x="190" y="308" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="308" width="190.0" height="26" rx="6" fill="url(#bar)"/>
+<text x="390.0" y="327" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">2<tspan font-weight="400" fill="#cfe3ff" dx="8">0.4%</tspan></text>
+<text x="176" y="372" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">Profit</text>
+<rect x="190" y="354" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="354" width="190.0" height="26" rx="6" fill="url(#bar)"/>
+<text x="390.0" y="373" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">2<tspan font-weight="400" fill="#cfe3ff" dx="8">0.4%</tspan></text>
+<text x="176" y="418" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">Inception</text>
+<rect x="190" y="400" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="400" width="95.0" height="26" rx="6" fill="url(#bar)"/>
+<text x="295.0" y="419" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">1<tspan font-weight="400" fill="#cfe3ff" dx="8">0.2%</tspan></text>
+<text x="176" y="464" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">Growth</text>
+<rect x="190" y="446" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="446" width="95.0" height="26" rx="6" fill="url(#bar)"/>
+<text x="295.0" y="465" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">1<tspan font-weight="400" fill="#cfe3ff" dx="8">0.2%</tspan></text>
+<text x="32" y="528" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9fb8dc">Computed from data/future-500.csv</text>
+</svg>

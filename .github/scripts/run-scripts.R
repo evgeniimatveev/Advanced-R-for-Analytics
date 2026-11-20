@@ -20,7 +20,6 @@ preludes <- list(
   "02-lists-and-subsetting/04-subsetting-lists.R"  = "02-lists-and-subsetting/01-understanding-lists.R",
   "02-lists-and-subsetting/05-adding-and-deleting-components.R" =
     c("02-lists-and-subsetting/01-understanding-lists.R", "02-lists-and-subsetting/04-subsetting-lists.R"),
-  "01-data-cleaning/11-replacing-with-derived-values.R" = "01-data-cleaning/04-using-gsub-and-sub.R",
   "01-data-cleaning/16-visualizing-results.R"      = "01-data-cleaning/01-data-preparation-and-cleaning.R"
 )
 
