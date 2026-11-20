@@ -1,9 +1,9 @@
 getwd()  # 🕵️ Check the current working directory
-setwd("C:/Users/GAMING/OneDrive/Dokumente/=== ADVANCED R A-Z ===")  # 🌐 Set the correct path
+# Working directory: open Advanced-R-for-Analytics.Rproj so paths are relative to the repo root
 getwd()  # ✅ Confirm the updated directory
 
 # Load the dataset
-util <- read.csv("Machine-Utilization Dataset (S2).csv")  # 📥 Load data
+util <- read.csv("data/machine-utilization.csv")  # 📥 Load data
 
 # Preview the dataset
 head(util, 10)  # 👀 Check the first 10 rows

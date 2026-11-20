@@ -23,11 +23,11 @@
 # Let’s import the dataset and identify missing values.
 
 # Set working directory
-setwd("C:/Users/GAMING/OneDrive/Dokumente/=== ADVANCED R A-Z ===")  # Update to your path
+# Working directory: open Advanced-R-for-Analytics.Rproj so paths are relative to the repo root
 getwd()  # Verify the working directory
 
 # Import the dataset
-fin <- read.csv("Future-500-The-Dataset (S1).csv")  # Load dataset
+fin <- read.csv("data/future-500.csv")  # Load dataset
 fin  # View the dataset
 
 # Explore the data structure

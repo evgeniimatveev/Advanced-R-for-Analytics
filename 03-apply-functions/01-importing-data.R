@@ -8,7 +8,7 @@ cat("\n🧠 Step 1: Importing Data into R\n")
 # Use `getwd()` to get the current working directory and `setwd()` to change it.
 
 getwd()  # Get current working directory
-setwd("C:/Users/YourName/Desktop/R Programming Advanced/Weather Data")  # Example directory
+# Working directory: open Advanced-R-for-Analytics.Rproj so paths are relative to the repo root
 
 # ==========================================
 # 🔧 Step 2: Loading CSV Files
@@ -16,10 +16,10 @@ setwd("C:/Users/YourName/Desktop/R Programming Advanced/Weather Data")  # Exampl
 cat("\n🔧 Loading CSV Files:\n")
 
 # Import multiple CSV files into R using `read.csv()` with row names set to the first column.
-Chicago <- read.csv("Chicago-F.csv", row.names = 1)
-NewYork <- read.csv("NewYork-F.csv", row.names = 1)
-Houston <- read.csv("Houston-F.csv", row.names = 1)
-SanFrancisco <- read.csv("SanFrancisco-F.csv", row.names = 1)
+Chicago <- read.csv("data/weather/chicago-f.csv", row.names = 1)
+NewYork <- read.csv("data/weather/newyork-f.csv", row.names = 1)
+Houston <- read.csv("data/weather/houston-f.csv", row.names = 1)
+SanFrancisco <- read.csv("data/weather/sanfrancisco-f.csv", row.names = 1)
 
 # Check one of the dataframes
 cat("Preview of Chicago dataset:\n")

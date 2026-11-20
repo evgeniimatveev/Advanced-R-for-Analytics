@@ -5,11 +5,11 @@
 # --- 🛠 Step 1: Setting Up the Environment
 # Always start by setting your working directory and importing your dataset.
 
-setwd("C:/Users/GAMING/OneDrive/Dokumente/=== ADVANCED R A-Z ===")  # Update your path
+# Working directory: open Advanced-R-for-Analytics.Rproj so paths are relative to the repo root
 getwd()  # ✅ Verify the working directory
 
 # Import the dataset
-fin <- read.csv("Future-500-The-Dataset (S1).csv")  # 📥 Load dataset
+fin <- read.csv("data/future-500.csv")  # 📥 Load dataset
 head(fin, 24)  # 👀 Preview the first 24 rows
 
 # Backup the original dataset

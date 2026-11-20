@@ -97,7 +97,10 @@ print(data)
 # Sometimes, data imported using `read.csv()` converts text columns into factors by default.
 
 # Import data without converting text to factors
-data_imported <- read.csv("example.csv", stringsAsFactors = FALSE)  # ✅ Use stringsAsFactors = FALSE
+# (added so the script runs on its own: the course's example.csv is not included, so a small one is created)
+example_file <- tempfile(fileext = ".csv")
+write.csv(data.frame(name = c("Anna", "Ben"), city = c("Paris", "Rome")), example_file, row.names = FALSE)
+data_imported <- read.csv(example_file, stringsAsFactors = FALSE)  # ✅ Use stringsAsFactors = FALSE
 str(data_imported)  # Check the structure of the imported data
 
 # --- 🔎 Why Use `stringsAsFactors = FALSE`?

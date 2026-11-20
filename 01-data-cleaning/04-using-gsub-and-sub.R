@@ -6,7 +6,7 @@
 # Always set and verify your working directory to ensure smooth data operations. 📂
 
 getwd()  # 🕵️ Check the current working directory
-setwd("C:/Users/GAMING/OneDrive/Dokumente/=== ADVANCED R A-Z ===")  # 🌐 Set your working directory
+# Working directory: open Advanced-R-for-Analytics.Rproj so paths are relative to the repo root
 getwd()  # ✅ Verify the updated working directory
 
 # --- 🔑 Key Notes:
@@ -16,7 +16,7 @@ getwd()  # ✅ Verify the updated working directory
 # 🛠 Step 2: Importing and Inspecting the Data
 # Importing a dataset and exploring its structure before making changes.
 
-fin <- read.csv("Future-500-The-Dataset (S1).csv")  # 📥 Import the dataset
+fin <- read.csv("data/future-500.csv")  # 📥 Import the dataset
 fin  # 👀 View the dataset
 
 str(fin)      # 🔎 Inspect the structure of the dataset
