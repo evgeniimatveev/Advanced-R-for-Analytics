@@ -101,9 +101,11 @@ summary(rl1_util$Utilization)
 # ===============================================
 # 🛠 Step 6: Advanced Example - Correlation Analysis
 
-# Analyze correlation between Utilization and Growth
-cat("\n🔗 Correlation Between Utilization and Growth:\n")
-correlation <- cor(util$Utilization, util$Growth, use = "complete.obs")
+# Analyze correlation between Utilization and the hour of the day
+# (fixed: this dataset has no "Growth" column, that came from another lecture)
+cat("\n🔗 Correlation Between Utilization and Hour of Day:\n")
+hour_of_day <- as.integer(format(as.POSIXct(util$Timestamp, format = "%d/%m/%Y %H:%M", tz = "UTC"), "%H"))
+correlation <- cor(util$Utilization, hour_of_day, use = "complete.obs")
 cat("Correlation:", correlation, "\n")
 
 # --- 🔑 Key Notes:

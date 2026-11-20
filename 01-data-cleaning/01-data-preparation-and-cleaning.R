@@ -82,6 +82,8 @@ fin_clean$Profit <- fin_clean$Employees * 2
 head(fin_clean)  # 👀 Verify the new column
 
 # Modify the "Revenue" column (Convert to 'thousands')
+# (added: Revenue is still text such as "$9,684,527" here, so convert it to numbers first)
+fin_clean$Revenue <- as.numeric(gsub("[$,]", "", fin_clean$Revenue))
 fin_clean$Revenue <- fin_clean$Revenue / 1000  
 head(fin_clean)  # ✅ Check the modified column
 
