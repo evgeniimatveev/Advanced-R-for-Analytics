@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="410" viewBox="0 0 1060 410" role="img" aria-label="Missing hourly readings per machine">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1b3a"/><stop offset="0.65" stop-color="#14306b"/><stop offset="1" stop-color="#1d4a8f"/></linearGradient><linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#75AADB"/><stop offset="1" stop-color="#9fd0ff"/></linearGradient><linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff9f43"/><stop offset="1" stop-color="#ffc078"/></linearGradient></defs>
+<rect width="1060" height="410" rx="16" fill="url(#bg)"/>
+<text x="32" y="48" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Missing hourly readings per machine</text>
+<text x="32" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" fill="#cfe3ff">Machine utilization: share of readings with no value</text>
+<text x="176" y="142" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">SR4A</text>
+<rect x="190" y="124" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="124" width="380.0" height="26" rx="6" fill="url(#hot)"/>
+<text x="580.0" y="143" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">31.9%<tspan font-weight="400" fill="#cfe3ff" dx="8">230 of 720 hourly readings, mean utilization 95.0%</tspan></text>
+<text x="176" y="188" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">SR1</text>
+<rect x="190" y="170" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="170" width="182.3" height="26" rx="6" fill="url(#bar)"/>
+<text x="382.3" y="189" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">15.3%<tspan font-weight="400" fill="#cfe3ff" dx="8">110 of 720 hourly readings, mean utilization 96.0%</tspan></text>
+<text x="176" y="234" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">RL1</text>
+<rect x="190" y="216" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="216" width="11.9" height="26" rx="6" fill="url(#bar)"/>
+<text x="211.9" y="235" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">1%<tspan font-weight="400" fill="#cfe3ff" dx="8">7 of 720 hourly readings, mean utilization 95.2%</tspan></text>
+<text x="176" y="280" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">RL2</text>
+<rect x="190" y="262" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="262" width="11.9" height="26" rx="6" fill="url(#bar)"/>
+<text x="211.9" y="281" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">1%<tspan font-weight="400" fill="#cfe3ff" dx="8">7 of 720 hourly readings, mean utilization 96.2%</tspan></text>
+<text x="176" y="326" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" fill="#eaf3ff">SR6</text>
+<rect x="190" y="308" width="380" height="26" rx="6" fill="#ffffff" fill-opacity="0.07"/>
+<rect x="190" y="308" width="11.9" height="26" rx="6" fill="url(#bar)"/>
+<text x="211.9" y="327" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#ffffff">1%<tspan font-weight="400" fill="#cfe3ff" dx="8">7 of 720 hourly readings, mean utilization 95.9%</tspan></text>
+<text x="32" y="390" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#9fb8dc">Computed from data/machine-utilization.csv</text>
+</svg>

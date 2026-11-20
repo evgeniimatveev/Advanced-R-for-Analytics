@@ -1,0 +1,17 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rapp.history
+Rplots.pdf
+
+# Files the course scripts write into the working directory
+Future-500-Cleaned.csv
+Cleaned_Future_500.csv
+Cleaned_Utilization_Data.csv
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Advanced R for Analytics banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1b3a"/>
+      <stop offset="0.6" stop-color="#14306b"/>
+      <stop offset="1" stop-color="#276DC3"/>
+    </linearGradient>
+    <linearGradient id="cell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="320" rx="18" fill="url(#bg)"/>
+  <!-- decorative data frame with missing values -->
+  <g transform="translate(900 52)" font-family="Consolas, 'Courier New', monospace" font-size="19" fill="#eaf3ff" text-anchor="middle">
+    <rect width="300" height="44" rx="8" fill="url(#cell)" stroke="#9fd0ff" stroke-opacity="0.6"/>
+    <text x="50" y="29" fill="#9fd0ff">id</text><text x="150" y="29" fill="#9fd0ff">revenue</text><text x="250" y="29" fill="#9fd0ff">profit</text>
+    <rect y="52" width="300" height="44" rx="8" fill="url(#cell)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="50" y="81">1</text><text x="150" y="81">9684</text><text x="250" y="81">8553</text>
+    <rect y="104" width="300" height="44" rx="8" fill="url(#cell)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="50" y="133">2</text><text x="150" y="133">14016</text><text x="250" y="133" fill="#ffb347" font-weight="700">NA</text>
+    <rect y="156" width="300" height="44" rx="8" fill="url(#cell)" stroke="#ffffff" stroke-opacity="0.25"/>
+    <text x="50" y="185">3</text><text x="150" y="185" fill="#ffb347" font-weight="700">NA</text><text x="250" y="185">8701</text>
+    <rect y="208" width="300" height="44" rx="8" fill="url(#cell)" stroke="#75AADB" stroke-opacity="0.8"/>
+    <text x="150" y="237" fill="#9fd0ff">sapply(df, median, na.rm = TRUE)</text>
+  </g>
+  <!-- title -->
+  <text x="64" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="600" fill="#9fd0ff" letter-spacing="6">DATA CLEANING TO APPLY()</text>
+  <text x="62" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="62" font-weight="800" fill="#ffffff">Advanced R for Analytics</text>
+  <text x="64" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#dbe9ff">Missing Data  ·  Imputation  ·  Lists  ·  apply Family  ·  ggplot2</text>
+</svg>
